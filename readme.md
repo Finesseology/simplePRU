@@ -1,7 +1,9 @@
-# Geodaq PRU running example.
+# PRU running example.
 ### A lot of information is taken from this great example online. https://www.glennklockwood.com/embedded/beaglebone-pru.html
+### This program is tested and ran on a beaglebone black running debian 9.5
 
-## ***Important note*** If remoteproc1 in /sys/class/remoteproc does not exist, or you know you were using UIO drivers, you must enable remoteproc drivers.
+## ***Important note:*** 
+## If remoteproc1 in /sys/class/remoteproc does not exist, or you know you were using UIO drivers, you must enable remoteproc drivers.
 
 If remoteproc1 doesn't exist at first:
 
@@ -12,6 +14,7 @@ If remoteproc1 doesn't exist at first:
 
             recommented:
                 uboot_overlay_pru=/lib/firmware/AM335X-PRU-UIO-00A0.dtbo
+
         reboot BBB
     remoteproc1 should now exist in /sys/class/remoteproc
 
