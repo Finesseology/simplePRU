@@ -1,5 +1,7 @@
 # PRU running example.
 ### A lot of information is taken from this great example online. https://www.glennklockwood.com/embedded/beaglebone-pru.html
+### The code is based off of: https://github.com/glennklockwood/beaglebone-pru/tree/main/button
+#### This repo is mostly used as a simple explaination to quickly get the PRU running.
 ### This program is tested and ran on a beaglebone black running debian 9.5
 
 ## ***Important note:*** 
